@@ -1154,3 +1154,27 @@ body {
   padding-bottom: 0px;
   background-color: #d6c8a2;
 }
+.cid-qIkqIHRYNb {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-qIkqIHRYNb blockquote {
+  color: #232323;
+  font-size: inherit;
+  font-style: normal;
+}
+.cid-qIkqIHRYNb .mbr-iconfont {
+  z-index: 1;
+  position: absolute;
+  font-size: 9rem;
+  color: #232323;
+  opacity: .1;
+}
+.cid-qIkqIHRYNb .mbr-iconfont.right-top {
+  right: -1rem;
+  top: -1rem;
+}
+.cid-qIkqIHRYNb P {
+  text-align: center;
+}
