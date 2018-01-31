@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-01-30_1353",
-    "currentPage": "principal.html",
+    "currentPage": "apresentacao.html",
     "theme": {
       "name": "portfoliom4",
       "title": "PortfolioM4",
@@ -18,7 +18,7 @@
         "display2Font": "Dosis",
         "display2Size": 2,
         "display5Font": "Roboto",
-        "display5Size": "0.4",
+        "display5Size": "1",
         "display7Font": "Dosis",
         "display7Size": "1.2",
         "display4Font": "Open Sans",
@@ -124,7 +124,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content3",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#d6c8a2\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Acessórios &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href>Agência de Viagens &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp;Alianças e Joias &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp;Aplicativo para festas</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Bandas &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Bartender &nbsp; &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Bolos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Buffet &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp;Cabelo e Maquiagem</a> <a class=\"btn btn-primary\" href>Cerimoniais e Assessoria</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#d6c8a2\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Acessórios &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; Agência de Viagens &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp;Alianças e Joias &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp;Aplicativo para festas</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Bandas &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Bartender &nbsp; &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Bolos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Buffet &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp;Cabelo e Maquiagem</a> <a class=\"btn btn-primary\" href>Cerimoniais e Assessoria</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qIkfIz0dCj",
           "_anchor": "content3-9",
           "_protectedParams": [],
