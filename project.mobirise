@@ -458,7 +458,7 @@
               }
             },
             "P": {
-              "text-align": "justify"
+              "text-align": "center"
             }
           },
           "_name": "content1",
