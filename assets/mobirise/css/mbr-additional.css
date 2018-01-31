@@ -1168,7 +1168,7 @@ body {
   z-index: 1;
   position: absolute;
   font-size: 9rem;
-  color: #232323;
+  color: #ffffff;
   opacity: .1;
 }
 .cid-qIkqIHRYNb .mbr-iconfont.right-top {
@@ -1176,5 +1176,5 @@ body {
   top: -1rem;
 }
 .cid-qIkqIHRYNb P {
-  text-align: center;
+  text-align: justify;
 }
