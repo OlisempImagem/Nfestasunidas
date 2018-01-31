@@ -37,7 +37,12 @@
     "uniqCompNum": 10,
     "versionPublish": "4.6.2",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/logo2-1-128x128-1.png",
+    "noImageResize": "",
+    "cookiesAlert": "",
+    "google-analytics": "",
+    "siteUrl": "undefined"
   },
   "pages": {
     "inicial.html": {
