@@ -24,10 +24,10 @@ body {
 }
 .display-1 {
   font-family: 'Dosis', sans-serif;
-  font-size: 3.5rem;
+  font-size: 1.2rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 5.6rem;
+  font-size: 1.92rem;
 }
 .display-2 {
   font-family: 'Dosis', sans-serif;
@@ -45,17 +45,17 @@ body {
 }
 .display-5 {
   font-family: 'Roboto', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
 }
 .display-5 > .mbr-iconfont {
-  font-size: 4rem;
+  font-size: 3.84rem;
 }
 .display-7 {
   font-family: 'Dosis', sans-serif;
-  font-size: 1.8rem;
+  font-size: 0.8rem;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 2.88rem;
+  font-size: 1.28rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -64,9 +64,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 2.8rem;
-    font-size: calc( 1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 1.6rem;
@@ -79,9 +79,9 @@ body {
     line-height: calc( 1.4 * (0.93rem + (0.8 - 0.93) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
-    font-size: 2rem;
-    font-size: calc( 1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.92rem;
+    font-size: calc( 1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -674,13 +674,13 @@ a:hover {
   box-shadow: none;
   color: #565656;
   font-family: 'Dosis', sans-serif;
-  font-size: 1.8rem;
+  font-size: 0.8rem;
   line-height: 1.43;
   min-height: 3.5em;
   padding: 1.07em .5em;
 }
 .form-control > .mbr-iconfont {
-  font-size: 2.88rem;
+  font-size: 1.28rem;
 }
 .form-control,
 .form-control:focus {
@@ -983,34 +983,67 @@ body {
   padding: 15px 0;
   color: #000000;
 }
-.cid-qIkVxbbd8c {
+.cid-qIkXCV79x1 {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-qIkVxbbd8c .mbr-section-heading {
+.cid-qIkXCV79x1 .mbr-section-heading {
   margin-bottom: 1.5em;
   text-align: center;
 }
-.cid-qIkVxbbd8c .input-main {
+.cid-qIkXCV79x1 .input-main {
   width: 99.6%;
   margin-left: .1em;
 }
-.cid-qIkVxbbd8c .form-1 {
+.cid-qIkXCV79x1 .form-1 {
   margin: 0 1em;
   padding: 0;
 }
-.cid-qIkVxbbd8c .input-wrap {
+.cid-qIkXCV79x1 .input-wrap {
   padding: 0;
   margin-bottom: 1.3em;
 }
-.cid-qIkVxbbd8c .input-wrap input {
+.cid-qIkXCV79x1 .input-wrap input {
   border: 1px solid #ddd;
   padding-left: .5em;
   height: 2.5em;
   width: 96%;
 }
-.cid-qIkVxbbd8c .form-group textarea {
+.cid-qIkXCV79x1 .form-group textarea {
+  height: 15em;
+  background-color: white;
+  padding: 0.5em 0.6em;
+  width: 98%;
+}
+.cid-qIkZ1nadKB {
+  padding-top: 30px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-qIkZ1nadKB .mbr-section-heading {
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+.cid-qIkZ1nadKB .input-main {
+  width: 99.6%;
+  margin-left: .1em;
+}
+.cid-qIkZ1nadKB .form-1 {
+  margin: 0 1em;
+  padding: 0;
+}
+.cid-qIkZ1nadKB .input-wrap {
+  padding: 0;
+  margin-bottom: 1.3em;
+}
+.cid-qIkZ1nadKB .input-wrap input {
+  border: 1px solid #ddd;
+  padding-left: .5em;
+  height: 2.5em;
+  width: 96%;
+}
+.cid-qIkZ1nadKB .form-group textarea {
   height: 15em;
   background-color: white;
   padding: 0.5em 0.6em;
