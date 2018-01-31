@@ -851,8 +851,8 @@ body {
 }
 .cid-qIke9Q4vrD {
   padding-top: 0px;
-  padding-bottom: 15px;
-  background-color: #ffffff;
+  padding-bottom: 75px;
+  background-image: url("../../../assets/images/tema-1358x2362.jpg");
 }
 .cid-qIke9Q4vrD .mbr-iconfont {
   font-size: 34px;
@@ -889,12 +889,6 @@ body {
   .cid-qIke9Q4vrD .underline {
     text-align: center !important;
   }
-}
-#custom-html-3 {
-  /* Type valid CSS here */
-}
-#custom-html-3 .my-image {
-  width: 100%;
 }
 .cid-qIkdcVwJIF .navbar {
   min-height: 77px;
