@@ -849,46 +849,15 @@ body {
 .dropup .dropdown-toggle::after {
   display: none;
 }
-.cid-qIke9Q4vrD {
-  padding-top: 0px;
-  padding-bottom: 60px;
+.cid-qIpaADGA3U {
+  padding-top: 30px;
+  padding-bottom: 90px;
   background-image: url("../../../assets/images/tema-1358x2362.jpg");
 }
-.cid-qIke9Q4vrD .mbr-iconfont {
-  font-size: 34px;
-  transition: color .3s;
-}
-.cid-qIke9Q4vrD .mbr-section-title {
+.cid-qIpaADGA3U .mbr-section-title {
   margin: 0;
-}
-.cid-qIke9Q4vrD .underline {
-  margin-top: -0.5rem;
-  margin-bottom: -0.5rem;
-}
-.cid-qIke9Q4vrD .underline .line {
-  width: 3rem;
-  height: 2px;
-  background: #444444;
-  display: inline-block;
-}
-.cid-qIke9Q4vrD .card-img {
-  text-align: left;
-}
-.cid-qIke9Q4vrD .row-item {
-  padding-bottom: 2rem;
-}
-.cid-qIke9Q4vrD .row-item:hover .card-img .mbr-iconfont {
-  color: #ffbc00 !important;
-}
-@media (max-width: 767px) {
-  .cid-qIke9Q4vrD .card-img,
-  .cid-qIke9Q4vrD .mbr-text,
-  .cid-qIke9Q4vrD .mbr-card-title,
-  .cid-qIke9Q4vrD .mbr-section-subtitle,
-  .cid-qIke9Q4vrD .mbr-section-title,
-  .cid-qIke9Q4vrD .underline {
-    text-align: center !important;
-  }
+  padding: 15px 0;
+  color: #ffffff;
 }
 .cid-qIkfIz0dCj {
   padding-top: 30px;
