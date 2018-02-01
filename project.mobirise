@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NFESTAS UNIDAS",
-    "currentPage": "principal.html",
+    "currentPage": "page8.html",
     "theme": {
       "name": "portfoliom4",
       "title": "PortfolioM4",
@@ -34,7 +34,7 @@
       ]
     },
     "versionFirst": "4.6.2",
-    "uniqCompNum": 130,
+    "uniqCompNum": 138,
     "versionPublish": "4.6.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -96,7 +96,7 @@
             "background-color": "@bgColor"
           },
           "_name": "content3",
-          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#d6c8a2\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-info-outline\" href=\"inicial.html\"><span class=\"mdi-hardware-keyboard-backspace mbr-iconfont mbr-iconfont-btn\"></span>Voltar</a> <a class=\"btn btn-primary\" href=\"acessorios.html#info1-b\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Acessórios &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"AgenciadeViagens.html#info1-n\">&nbsp; Agência de Viagens &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"aliancaejoias.html\">&nbsp; &nbsp; &nbsp;Alianças e Joias &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href=\"aplicativosparafestas.html\">&nbsp;Aplicativo para festas</a> <a class=\"btn btn-primary\" href=\"Bandas.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Bandas &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href=\"Bartender.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Bartender &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"bolos.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Bolos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href=\"Buffet.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Buffet &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"Cabelomaquiagem.html\">&nbsp; &nbsp;Cabelo e Maquiagem&nbsp;</a> <a class=\"btn btn-primary\" href=\"cerimonial.html\">Cerimoniais e Assessoria</a> <a class=\"btn btn-primary\" href=\"Convites.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Convites &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"coreografo.html\">&nbsp; &nbsp; &nbsp; &nbsp; Coreógrafos &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"decoradores.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Decoração &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"decoracaoinfantil.html\">&nbsp; &nbsp;Decoração Infantil &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"decoracaotematica.html\">&nbsp; Decoração Temática &nbsp;</a> <a class=\"btn btn-primary\" href=\"designergrafico.html\">&nbsp; &nbsp;Designers Gráficos &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"diadanoiva.html\">&nbsp; &nbsp; &nbsp; &nbsp; Dia da Noiva &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"DJ.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;DJ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"docesfinos.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Doces Finos &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href=\"espacodeeventos.html\">&nbsp; &nbsp; Espaço de Eventos &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"espacoparaeventoinfantil.html\">Espaço de Eventos Infantis</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; Foto Cabine &nbsp; &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; Fotográfos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Hotéis &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; Lembrancinhas &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; Locação de Carros &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp;Locação de Móveis &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp;Som / Iluminação &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp;Tendas e Coberturas&nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Valets &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; Vestidos e Trajes &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Videos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#d6c8a2\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-info-outline\" href=\"inicial.html\"><span class=\"mdi-hardware-keyboard-backspace mbr-iconfont mbr-iconfont-btn\"></span>Voltar</a> <a class=\"btn btn-primary\" href=\"acessorios.html#info1-b\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Acessórios &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"AgenciadeViagens.html#info1-n\">&nbsp; Agência de Viagens &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"aliancaejoias.html\">&nbsp; &nbsp; &nbsp;Alianças e Joias &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href=\"aplicativosparafestas.html\">&nbsp;Aplicativo para festas</a> <a class=\"btn btn-primary\" href=\"Bandas.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Bandas &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href=\"Bartender.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Bartender &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"bolos.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Bolos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href=\"Buffet.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Buffet &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"Cabelomaquiagem.html\">&nbsp; &nbsp;Cabelo e Maquiagem&nbsp;</a> <a class=\"btn btn-primary\" href=\"cerimonial.html\">Cerimoniais e Assessoria</a> <a class=\"btn btn-primary\" href=\"Convites.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Convites &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"coreografo.html\">&nbsp; &nbsp; &nbsp; &nbsp; Coreógrafos &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"decoradores.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Decoração &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"decoracaoinfantil.html\">&nbsp; &nbsp;Decoração Infantil &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"decoracaotematica.html\">&nbsp; Decoração Temática &nbsp;</a> <a class=\"btn btn-primary\" href=\"designergrafico.html\">&nbsp; &nbsp;Designers Gráficos &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"diadanoiva.html\">&nbsp; &nbsp; &nbsp; &nbsp; Dia da Noiva &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"DJ.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;DJ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"docesfinos.html\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Doces Finos &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href=\"espacodeeventos.html\">&nbsp; &nbsp; Espaço de Eventos &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href=\"espacoparaeventoinfantil.html\">Espaço de Eventos Infantis</a> <a class=\"btn btn-primary\" href=\"fotocabine.html\">&nbsp; &nbsp; &nbsp; &nbsp; Foto Cabine &nbsp; &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; Fotográfos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Hotéis &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; Lembrancinhas &nbsp; &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; Locação de Carros &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp;Locação de Móveis &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp;Som / Iluminação &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp;Tendas e Coberturas&nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Valets &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; Vestidos e Trajes &nbsp; &nbsp;</a> <a class=\"btn btn-primary\" href>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Videos &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qIkfIz0dCj",
           "_anchor": "content3-9",
           "_protectedParams": [],
@@ -758,7 +758,7 @@
     "page8.html": {
       "settings": {
         "title": "modelo",
-        "order": 26,
+        "order": 27,
         "meta_descr": "acessorios"
       },
       "components": [
@@ -4726,6 +4726,296 @@
           "_once": false,
           "_params": {},
           "_anchor": "info1-3l"
+        }
+      ]
+    },
+    "fotocabine.html": {
+      "settings": {
+        "title": "fotocabine",
+        "order": 26,
+        "meta_descr": "fotocabine"
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "margin": "0",
+              "padding": "15px 0",
+              "color": "#ffffff"
+            }
+          },
+          "_name": "info1",
+          "_customHTML": "<section group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/img/04.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container text-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-8 section\">\n                <div class=\"section-title\">\n                    <h3 mbr-text class=\"mbr-fonts-style mbr-section-title\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\">Foto Cabine</h3>\n                </div>\n            </div>\n            <div class=\"col-md-4 mbr-section-btn\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-1\"><a href=\"principal.html\" class=\"btn btn-primary\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span>\n                    VOLTAR</a></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qIqyYZ3TdB",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "info1-3m"
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "animType": "basic_linear",
+            "theme": "calm",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/foto-cabine-valverde-logo-1024x400.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/foto%20cabine%20valverde%20-%20logo-960x375.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/foto-cabine-valverde-logo-85x33.png",
+                "title": "title 3",
+                "text": "text 3",
+                "active": true
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": true,
+            "responsive": "1",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "captionsEffect": "slide",
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "timeout": 2,
+            "duration": 2,
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "width": "1024",
+            "height": "576"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_anchor": "wowslider-3n"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "a:link": {
+              "text-decoration": "none"
+            },
+            ".icon-transition span": {
+              "color": "rgb(255, 255, 255)",
+              "display": "block",
+              "height": "3em",
+              "line-height": "3em",
+              "border-radius": "50%",
+              "border": "2px solid @circleColor",
+              "width": "3em",
+              "-webkit-transition": "all 0.3s ease-out 0s",
+              "transition": "all 0.3s ease-out 0s",
+              "font-size": "14px"
+            },
+            ".icon-transition span:hover": {
+              "background-color": "@circleHover"
+            },
+            ".inner-text": {
+              "line-height": "3em"
+            },
+            ".social-media": {
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "ul": {
+                "li": {
+                  "padding": "4px",
+                  "display": "inline-block"
+                },
+                "margin": "0",
+                "padding": "0",
+                "margin-bottom": "8px"
+              }
+            },
+            ".content-text,.inner-text": {
+              "color": "#c1c1c1"
+            }
+          },
+          "_name": "footer2",
+          "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"SocialLikes,Socicon\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Circle Hover\" name=\"circleHover\" value=\"#ffbc00\" condition=\"showIcons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n       <div class=\"container-fluid text-center\">\n           <div class=\"row justify-content-center\">\n             <div class=\"col-md-6 col-sm-12\" mbr-if=\"showText\">\n                 <h3 class=\"inner-text mbr-fonts-style content-text\" mbr-text mbr-theme-style=\"display-1\" data-app-selector=\".content-text,.inner-text\">Clique nos icones abaixo para entrar em contato e visitar nossas redes sociais</h3>\n             </div>\n             <div class=\"social-media col-md-6 col-sm-12\" mbr-if=\"showIcons\">\n                  <ul>\n                      <li mbr-if=\"iconsCount > 0\">\n                        <a class=\"icon-transition\" href=\"https://www.facebook.com/fotocabinevalverde/\" target=\"_blank\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"https://www.facebook.com/fotocabinevalverde/\" target=\"_blank\">\n                          <span mbr-icon class=\"mbr-iconfont icon54-v1-world-wideweb\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"tel:(15) 991014009\">\n                          <span mbr-icon class=\"mbr-iconfont mdi-hardware-phone-iphone\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"tel:(15) 996114824\">\n                          <span mbr-icon class=\"mbr-iconfont mdi-hardware-phone-android\" style></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\" style></span>\n                        </a>\n                      </li>\n                   </ul>\n              </div>\n    </div>\n       </div>\n\n</section>",
+          "_isUserblock": true,
+          "_cid": "qIqyZ0qb6Q",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "footer2-3o"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "margin": "0",
+              "padding": "15px 0",
+              "color": "#000000"
+            }
+          },
+          "_name": "info1",
+          "_customHTML": "<section group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/04.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#e7dcba\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container text-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-8 section\">\n                <div class=\"section-title\">\n                    <h3 mbr-text class=\"mbr-fonts-style mbr-section-title\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\">Foto Cabine Valverde</h3>\n                </div>\n            </div>\n            <div class=\"col-md-4 mbr-section-btn\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a href=\"formularioorcamento.html\" class=\"btn btn-primary\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>\n                    Solicite orçamento</a></div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "qIqyZ15cl7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "info1-3p"
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "animType": "basic_linear",
+            "theme": "calm",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/m2i-foto-cabine-logo-576x576.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/m2i%20foto%20cabine%20-%20logo-283x283.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/m2i-foto-cabine-logo-48x48.png",
+                "title": "title 3",
+                "text": "text 3",
+                "active": true
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": true,
+            "responsive": "1",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "captionsEffect": "slide",
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "timeout": 2,
+            "duration": 2,
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "width": "1024",
+            "height": "576"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_anchor": "wowslider-3q"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "a:link": {
+              "text-decoration": "none"
+            },
+            ".icon-transition span": {
+              "color": "rgb(255, 255, 255)",
+              "display": "block",
+              "height": "3em",
+              "line-height": "3em",
+              "border-radius": "50%",
+              "border": "2px solid @circleColor",
+              "width": "3em",
+              "-webkit-transition": "all 0.3s ease-out 0s",
+              "transition": "all 0.3s ease-out 0s",
+              "font-size": "14px"
+            },
+            ".icon-transition span:hover": {
+              "background-color": "@circleHover"
+            },
+            ".inner-text": {
+              "line-height": "3em"
+            },
+            ".social-media": {
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "ul": {
+                "li": {
+                  "padding": "4px",
+                  "display": "inline-block"
+                },
+                "margin": "0",
+                "padding": "0",
+                "margin-bottom": "8px"
+              }
+            },
+            ".content-text,.inner-text": {
+              "color": "#c1c1c1"
+            }
+          },
+          "_name": "footer2",
+          "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"SocialLikes,Socicon\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Circle Hover\" name=\"circleHover\" value=\"#ffbc00\" condition=\"showIcons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background7-2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n       <div class=\"container-fluid text-center\">\n           <div class=\"row justify-content-center\">\n             <div class=\"col-md-6 col-sm-12\" mbr-if=\"showText\">\n                 <h3 class=\"inner-text mbr-fonts-style content-text\" mbr-text mbr-theme-style=\"display-1\" data-app-selector=\".content-text,.inner-text\">Clique nos icones abaixo para entrar em contato e visitar nossas redes sociais</h3>\n             </div>\n             <div class=\"social-media col-md-6 col-sm-12\" mbr-if=\"showIcons\">\n                  <ul>\n                      <li mbr-if=\"iconsCount > 0\">\n                        <a class=\"icon-transition\" href=\"https://www.facebook.com/m2ifotocabine/\" target=\"_blank\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"http://www.m2ifotocabine.com.br/\" target=\"_blank\">\n                          <span mbr-icon class=\"mbr-iconfont icon54-v1-world-wideweb\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"tel:(11) 94310-3210\">\n                          <span mbr-icon class=\"mbr-iconfont mdi-hardware-phone-iphone\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont mdi-hardware-phone-android\" style></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\" style></span>\n                        </a>\n                      </li>\n                   </ul>\n              </div>\n    </div>\n       </div>\n\n</section>",
+          "_anchor": "footer2-3t",
+          "_isUserblock": true,
+          "_cid": "qIqA1JRts8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "margin": "0",
+              "padding": "15px 0",
+              "color": "#000000"
+            }
+          },
+          "_name": "info1",
+          "_customHTML": "<section group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/04-2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#e7dcba\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container text-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-8 section\">\n                <div class=\"section-title\">\n                    <h3 mbr-text class=\"mbr-fonts-style mbr-section-title\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\">M2i Foto Cabine</h3>\n                </div>\n            </div>\n            <div class=\"col-md-4 mbr-section-btn\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a href=\"formularioorcamento.html\" class=\"btn btn-primary\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>\n                    Solicite orçamento</a></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "info1-3s",
+          "_isUserblock": true,
+          "_cid": "qIqA12HWmK",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     }
