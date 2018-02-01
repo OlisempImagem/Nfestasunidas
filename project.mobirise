@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NFESTAS UNIDAS",
-    "currentPage": "inicial.html",
+    "currentPage": "apresentacao.html",
     "theme": {
       "name": "portfoliom4",
       "title": "PortfolioM4",
@@ -34,7 +34,7 @@
       ]
     },
     "versionFirst": "4.6.2",
-    "uniqCompNum": 242,
+    "uniqCompNum": 243,
     "versionPublish": "4.6.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -113,6 +113,21 @@
         "meta_descr": "apresentacao"
       },
       "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content3",
+          "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-danger-outline\" href=\"inicial.html\"><span class=\"mbri-left mbr-iconfont mbr-iconfont-btn\"></span>Voltar</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qIrgCOlGsT",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content3-6q"
+        },
         {
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
