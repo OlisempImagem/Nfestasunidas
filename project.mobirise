@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NFESTAS UNIDAS",
-    "currentPage": "videos",
+    "currentPage": "principal.html",
     "theme": {
       "name": "portfoliom4",
       "title": "PortfolioM4",
@@ -34,7 +34,7 @@
       ]
     },
     "versionFirst": "4.6.2",
-    "uniqCompNum": 207,
+    "uniqCompNum": 220,
     "versionPublish": "4.6.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -7468,45 +7468,28 @@
         {
           "_params": {
             "autoplay": true,
-            "animType": "kenburns",
-            "theme": "boundary",
+            "animType": "basic_linear",
+            "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/slide3.jpg",
+                "image": "@PROJECT_PATH@/assets/images/namo-filmes-logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
-                "src": "@PROJECT_PATH@/assets/images/slide3.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/tooltip3.jpg",
-                "title": "title 1",
-                "text": "text 1"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/slide2.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/slide2.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/tooltip2.jpg",
-                "title": "title 2",
-                "text": "text 2"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/slide1.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/slide1.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/tooltip1.jpg",
+                "src": "@PROJECT_PATH@/assets/images/namo%20filmes%20-%20logo-600x600.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/namo-filmes-logo-48x48.png",
                 "title": "title 3",
-                "text": "text 3"
+                "text": "text 3",
+                "active": true
               }
             ],
             "fullScreen": true,
             "showCaptions": false,
-            "hideControls": false,
+            "hideControls": true,
             "responsive": "1",
             "paddingTop": 0,
             "paddingBottom": 0,
             "captionsEffect": "slide",
-            "showBullets": false,
+            "showBullets": true,
             "bgColor": "#ffffff",
             "timeout": 2,
             "duration": 2,
@@ -7575,7 +7558,7 @@
             }
           },
           "_name": "footer2",
-          "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"SocialLikes,Socicon\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\" selected>5</option>\n        </select>\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Circle Hover\" name=\"circleHover\" value=\"#ffbc00\" condition=\"showIcons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n       <div class=\"container-fluid text-center\">\n           <div class=\"row justify-content-center\">\n             <div class=\"col-md-6 col-sm-12\" mbr-if=\"showText\">\n                 <h3 class=\"inner-text mbr-fonts-style content-text\" mbr-text mbr-theme-style=\"display-1\" data-app-selector=\".content-text,.inner-text\">Clique nos icones abaixo para entrar em contato e visitar nossas redes sociais</h3>\n             </div>\n             <div class=\"social-media col-md-6 col-sm-12\" mbr-if=\"showIcons\">\n                  <ul>\n                      <li mbr-if=\"iconsCount > 0\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\">\n                          </span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont icon54-v1-world-wideweb\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont mdi-action-settings-phone\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont mdi-hardware-phone-android\" style></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\" style></span>\n                        </a>\n                      </li>\n                   </ul>\n              </div>\n    </div>\n       </div>\n\n</section>",
+          "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"SocialLikes,Socicon\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Circle Hover\" name=\"circleHover\" value=\"#ffbc00\" condition=\"showIcons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n       <div class=\"container-fluid text-center\">\n           <div class=\"row justify-content-center\">\n             <div class=\"col-md-6 col-sm-12\" mbr-if=\"showText\">\n                 <h3 class=\"inner-text mbr-fonts-style content-text\" mbr-text mbr-theme-style=\"display-1\" data-app-selector=\".content-text,.inner-text\">Clique nos icones abaixo para entrar em contato e visitar nossas redes sociais</h3>\n             </div>\n             <div class=\"social-media col-md-6 col-sm-12\" mbr-if=\"showIcons\">\n                  <ul>\n                      <li mbr-if=\"iconsCount > 0\">\n                        <a class=\"icon-transition\" href=\"https://www.facebook.com/nanofilmes\" target=\"_blank\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"http://www.nanofilmes.com\" target=\"_blank\">\n                          <span mbr-icon class=\"mbr-iconfont icon54-v1-world-wideweb\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"tel:(15) 997581159\">\n                          <span mbr-icon class=\"mbr-iconfont mdi-hardware-phone-iphone\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"https://www.instagram.com/nanofilmes\" target=\"_blank\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\" style></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\" style></span>\n                        </a>\n                      </li>\n                   </ul>\n              </div>\n    </div>\n       </div>\n\n</section>",
           "_isUserblock": true,
           "_cid": "qIqUiCLVuN",
           "_protectedParams": [],
@@ -7601,7 +7584,7 @@
             }
           },
           "_name": "info1",
-          "_customHTML": "<section group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/04.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#e7dcba\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container text-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-8 section\">\n                <div class=\"section-title\">\n                    <h3 mbr-text class=\"mbr-fonts-style mbr-section-title\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\">Descrição:</h3>\n                </div>\n            </div>\n            <div class=\"col-md-4 mbr-section-btn\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a href=\"formularioorcamento.html\" class=\"btn btn-primary\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>\n                    Solicite orçamento</a> <a href=\"formulariocupom.html#form2-k\" class=\"btn btn-primary\"><span class=\"mbri-sale mbr-iconfont mbr-iconfont-btn\"></span>\n                    Cupom de Desconto</a></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/04.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#e7dcba\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container text-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-8 section\">\n                <div class=\"section-title\">\n                    <h3 mbr-text class=\"mbr-fonts-style mbr-section-title\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\">Nano Vídeos<br><br>Endereço:<br>Rua Ana Augusto, 470 - Vila Augusta, Sorocaba - SP, 18040-040</h3>\n                </div>\n            </div>\n            <div class=\"col-md-4 mbr-section-btn\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a href=\"formularioorcamento.html\" class=\"btn btn-primary\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>\n                    Solicite orçamento</a></div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_cid": "qIqUiDBHHh",
           "_protectedParams": [],
@@ -7609,6 +7592,518 @@
           "_once": false,
           "_params": {},
           "_anchor": "info1-5p"
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "animType": "basic_linear",
+            "theme": "calm",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/valverde-fotografia-e-cinematografia-logo-1024x568.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/valverde%20fotografia%20e%20cinematografia%20-%20logo-960x533.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/valverde-fotografia-e-cinematografia-logo-85x47.png",
+                "title": "title 3",
+                "text": "text 3",
+                "active": true
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": true,
+            "responsive": "1",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "captionsEffect": "slide",
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "timeout": 2,
+            "duration": 2,
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "width": "1024",
+            "height": "576"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_anchor": "wowslider-5r"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "a:link": {
+              "text-decoration": "none"
+            },
+            ".icon-transition span": {
+              "color": "rgb(255, 255, 255)",
+              "display": "block",
+              "height": "3em",
+              "line-height": "3em",
+              "border-radius": "50%",
+              "border": "2px solid @circleColor",
+              "width": "3em",
+              "-webkit-transition": "all 0.3s ease-out 0s",
+              "transition": "all 0.3s ease-out 0s",
+              "font-size": "14px"
+            },
+            ".icon-transition span:hover": {
+              "background-color": "@circleHover"
+            },
+            ".inner-text": {
+              "line-height": "3em"
+            },
+            ".social-media": {
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "ul": {
+                "li": {
+                  "padding": "4px",
+                  "display": "inline-block"
+                },
+                "margin": "0",
+                "padding": "0",
+                "margin-bottom": "8px"
+              }
+            },
+            ".content-text,.inner-text": {
+              "color": "#c1c1c1"
+            }
+          },
+          "_name": "footer2",
+          "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"SocialLikes,Socicon\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Circle Hover\" name=\"circleHover\" value=\"#ffbc00\" condition=\"showIcons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background7-3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n       <div class=\"container-fluid text-center\">\n           <div class=\"row justify-content-center\">\n             <div class=\"col-md-6 col-sm-12\" mbr-if=\"showText\">\n                 <h3 class=\"inner-text mbr-fonts-style content-text\" mbr-text mbr-theme-style=\"display-1\" data-app-selector=\".content-text,.inner-text\">Clique nos icones abaixo para entrar em contato e visitar nossas redes sociais</h3>\n             </div>\n             <div class=\"social-media col-md-6 col-sm-12\" mbr-if=\"showIcons\">\n                  <ul>\n                      <li mbr-if=\"iconsCount > 0\">\n                        <a class=\"icon-transition\" href=\"tel:(15) 99611.4824\">\n                          <span mbr-icon class=\"mbr-iconfont mdi-hardware-phone-iphone\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont icon54-v1-world-wideweb\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont mdi-action-settings-phone\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont mdi-hardware-phone-android\" style></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\" style></span>\n                        </a>\n                      </li>\n                   </ul>\n              </div>\n    </div>\n       </div>\n\n</section>",
+          "_anchor": "footer2-5t",
+          "_isUserblock": true,
+          "_cid": "qIqVWHb0b3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "margin": "0",
+              "padding": "15px 0",
+              "color": "#000000"
+            }
+          },
+          "_name": "info1",
+          "_customHTML": "<section group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/04-3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#e7dcba\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container text-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-8 section\">\n                <div class=\"section-title\">\n                    <h3 mbr-text class=\"mbr-fonts-style mbr-section-title\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\">Valverde Fotografia e Cinematografia<br><br>Endereço:\n<div>\n</div><div>Rua Guaicurus, Vila Leão - Sorocaba SP-</div></h3>\n                </div>\n            </div>\n            <div class=\"col-md-4 mbr-section-btn\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a href=\"formularioorcamento.html\" class=\"btn btn-primary\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>\n                    Solicite orçamento</a></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "info1-5u",
+          "_isUserblock": true,
+          "_cid": "qIqVXzxarL",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "animType": "basic_linear",
+            "theme": "calm",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/keity-produes-logo-576x576.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/keity%20produ%C3%A7%C3%B5es%20-%20logo-400x400.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/keity-produes-logo-48x48.png",
+                "title": "title 3",
+                "text": "text 3",
+                "active": true
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": true,
+            "responsive": "1",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "captionsEffect": "slide",
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "timeout": 2,
+            "duration": 2,
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "width": "1024",
+            "height": "576"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_anchor": "wowslider-5v"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "a:link": {
+              "text-decoration": "none"
+            },
+            ".icon-transition span": {
+              "color": "rgb(255, 255, 255)",
+              "display": "block",
+              "height": "3em",
+              "line-height": "3em",
+              "border-radius": "50%",
+              "border": "2px solid @circleColor",
+              "width": "3em",
+              "-webkit-transition": "all 0.3s ease-out 0s",
+              "transition": "all 0.3s ease-out 0s",
+              "font-size": "14px"
+            },
+            ".icon-transition span:hover": {
+              "background-color": "@circleHover"
+            },
+            ".inner-text": {
+              "line-height": "3em"
+            },
+            ".social-media": {
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "ul": {
+                "li": {
+                  "padding": "4px",
+                  "display": "inline-block"
+                },
+                "margin": "0",
+                "padding": "0",
+                "margin-bottom": "8px"
+              }
+            },
+            ".content-text,.inner-text": {
+              "color": "#c1c1c1"
+            }
+          },
+          "_name": "footer2",
+          "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"SocialLikes,Socicon\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Circle Hover\" name=\"circleHover\" value=\"#ffbc00\" condition=\"showIcons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background7-4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n       <div class=\"container-fluid text-center\">\n           <div class=\"row justify-content-center\">\n             <div class=\"col-md-6 col-sm-12\" mbr-if=\"showText\">\n                 <h3 class=\"inner-text mbr-fonts-style content-text\" mbr-text mbr-theme-style=\"display-1\" data-app-selector=\".content-text,.inner-text\">Clique nos icones abaixo para entrar em contato e visitar nossas redes sociais</h3>\n             </div>\n             <div class=\"social-media col-md-6 col-sm-12\" mbr-if=\"showIcons\">\n                  <ul>\n                      <li mbr-if=\"iconsCount > 0\">\n                        <a class=\"icon-transition\" href=\"https://www.facebook.com/keityproducoes/\" target=\"_blank\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"http://www.producoesk.com.br\" target=\"_blank\">\n                          <span mbr-icon class=\"mbr-iconfont icon54-v1-world-wideweb\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"tel:(15) 3202-7327\">\n                          <span mbr-icon class=\"mbr-iconfont mdi-action-settings-phone\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"tel:(15) 996695556\">\n                          <span mbr-icon class=\"mbr-iconfont mdi-hardware-phone-android\" style></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\" style></span>\n                        </a>\n                      </li>\n                   </ul>\n              </div>\n    </div>\n       </div>\n\n</section>",
+          "_anchor": "footer2-5w",
+          "_isUserblock": true,
+          "_cid": "qIqWtKMvnn",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "margin": "0",
+              "padding": "15px 0",
+              "color": "#000000"
+            }
+          },
+          "_name": "info1",
+          "_customHTML": "<section group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/04-4.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#e7dcba\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container text-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-8 section\">\n                <div class=\"section-title\">\n                    <h3 mbr-text class=\"mbr-fonts-style mbr-section-title\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\">Keity Produções<br><br>Endereço:\n<div>Rua Américo Figueiredo, 1.600 - Jd. Simus - Sorocaba/SP</div></h3>\n                </div>\n            </div>\n            <div class=\"col-md-4 mbr-section-btn\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a href=\"formularioorcamento.html\" class=\"btn btn-primary\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>\n                    Solicite orçamento</a></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "info1-5x",
+          "_isUserblock": true,
+          "_cid": "qIqWus26P0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "animType": "basic_linear",
+            "theme": "calm",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/meu-dia-filmes-logo-576x576.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/meu%20dia%20filmes%20-%20logo-180x180.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/meu-dia-filmes-logo-48x48.png",
+                "title": "title 3",
+                "text": "text 3",
+                "active": true
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": true,
+            "responsive": "1",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "captionsEffect": "slide",
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "timeout": 2,
+            "duration": 2,
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "width": "1024",
+            "height": "576"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_anchor": "wowslider-5y"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "a:link": {
+              "text-decoration": "none"
+            },
+            ".icon-transition span": {
+              "color": "rgb(255, 255, 255)",
+              "display": "block",
+              "height": "3em",
+              "line-height": "3em",
+              "border-radius": "50%",
+              "border": "2px solid @circleColor",
+              "width": "3em",
+              "-webkit-transition": "all 0.3s ease-out 0s",
+              "transition": "all 0.3s ease-out 0s",
+              "font-size": "14px"
+            },
+            ".icon-transition span:hover": {
+              "background-color": "@circleHover"
+            },
+            ".inner-text": {
+              "line-height": "3em"
+            },
+            ".social-media": {
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "ul": {
+                "li": {
+                  "padding": "4px",
+                  "display": "inline-block"
+                },
+                "margin": "0",
+                "padding": "0",
+                "margin-bottom": "8px"
+              }
+            },
+            ".content-text,.inner-text": {
+              "color": "#c1c1c1"
+            }
+          },
+          "_name": "footer2",
+          "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"SocialLikes,Socicon\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Circle Hover\" name=\"circleHover\" value=\"#ffbc00\" condition=\"showIcons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background7-4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n       <div class=\"container-fluid text-center\">\n           <div class=\"row justify-content-center\">\n             <div class=\"col-md-6 col-sm-12\" mbr-if=\"showText\">\n                 <h3 class=\"inner-text mbr-fonts-style content-text\" mbr-text mbr-theme-style=\"display-1\" data-app-selector=\".content-text,.inner-text\">Clique nos icones abaixo para entrar em contato e visitar nossas redes sociais</h3>\n             </div>\n             <div class=\"social-media col-md-6 col-sm-12\" mbr-if=\"showIcons\">\n                  <ul>\n                      <li mbr-if=\"iconsCount > 0\">\n                        <a class=\"icon-transition\" href=\"https://www.facebook.com/meudiafilmes/\" target=\"_blank\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"http://meudiafilmes.com.br/\" target=\"_blank\">\n                          <span mbr-icon class=\"mbr-iconfont icon54-v1-world-wideweb\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"tel:(15)99748-5180\">\n                          <span mbr-icon class=\"mbr-iconfont mdi-hardware-phone-iphone\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"https://www.instagram.com/meudiafilmes/\" target=\"_blank\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\" style></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\" style></span>\n                        </a>\n                      </li>\n                   </ul>\n              </div>\n    </div>\n       </div>\n\n</section>",
+          "_anchor": "footer2-5z",
+          "_isUserblock": true,
+          "_cid": "qIqXh0Mpe4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "margin": "0",
+              "padding": "15px 0",
+              "color": "#000000"
+            }
+          },
+          "_name": "info1",
+          "_customHTML": "<section group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/04-4.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#e7dcba\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container text-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-8 section\">\n                <div class=\"section-title\">\n                    <h3 mbr-text class=\"mbr-fonts-style mbr-section-title\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\">Meu Dia Filmes</h3>\n                </div>\n            </div>\n            <div class=\"col-md-4 mbr-section-btn\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a href=\"formularioorcamento.html\" class=\"btn btn-primary\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>\n                    Solicite orçamento</a></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "info1-60",
+          "_isUserblock": true,
+          "_cid": "qIqXi0InKJ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "animType": "basic_linear",
+            "theme": "calm",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/junior-magueta-foto-vdeo-logo-609x576.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/junior%20magueta%20foto%20v%C3%ADdeo%20-%20logo-200x189.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/junior-magueta-foto-vdeo-logo-50x48.png",
+                "title": "title 3",
+                "text": "text 3",
+                "active": true
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": true,
+            "responsive": "1",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "captionsEffect": "slide",
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "timeout": 2,
+            "duration": 2,
+            "customSize": false,
+            "customWidth": "1600",
+            "customHeight": "1080",
+            "size": "1024x576",
+            "width": "1024",
+            "height": "576"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_anchor": "wowslider-61"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "a:link": {
+              "text-decoration": "none"
+            },
+            ".icon-transition span": {
+              "color": "rgb(255, 255, 255)",
+              "display": "block",
+              "height": "3em",
+              "line-height": "3em",
+              "border-radius": "50%",
+              "border": "2px solid @circleColor",
+              "width": "3em",
+              "-webkit-transition": "all 0.3s ease-out 0s",
+              "transition": "all 0.3s ease-out 0s",
+              "font-size": "14px"
+            },
+            ".icon-transition span:hover": {
+              "background-color": "@circleHover"
+            },
+            ".inner-text": {
+              "line-height": "3em"
+            },
+            ".social-media": {
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "ul": {
+                "li": {
+                  "padding": "4px",
+                  "display": "inline-block"
+                },
+                "margin": "0",
+                "padding": "0",
+                "margin-bottom": "8px"
+              }
+            },
+            ".content-text,.inner-text": {
+              "color": "#c1c1c1"
+            }
+          },
+          "_name": "footer2",
+          "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"SocialLikes,Socicon\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <select title=\"Icons\" name=\"iconsCount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Circle Color\" name=\"circleColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Circle Hover\" name=\"circleHover\" value=\"#ffbc00\" condition=\"showIcons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background7-4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n       <div class=\"container-fluid text-center\">\n           <div class=\"row justify-content-center\">\n             <div class=\"col-md-6 col-sm-12\" mbr-if=\"showText\">\n                 <h3 class=\"inner-text mbr-fonts-style content-text\" mbr-text mbr-theme-style=\"display-1\" data-app-selector=\".content-text,.inner-text\">Clique nos icones abaixo para entrar em contato e visitar nossas redes sociais</h3>\n             </div>\n             <div class=\"social-media col-md-6 col-sm-12\" mbr-if=\"showIcons\">\n                  <ul>\n                      <li mbr-if=\"iconsCount > 0\">\n                        <a class=\"icon-transition\" href=\"https://www.facebook.com/juniormagueta.fotovideo/\" target=\"_blank\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"http://www.juniormagueta.com/\" target=\"_blank\">\n                          <span mbr-icon class=\"mbr-iconfont icon54-v1-world-wideweb\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"tel:(15) 30142909\">\n                          <span mbr-icon class=\"mbr-iconfont mdi-action-settings-phone\"></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"tel:(15) 991082482\">\n                          <span mbr-icon class=\"mbr-iconfont mdi-hardware-phone-android\" style></span>\n                        </a>\n                      </li>\n                      <li mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                          <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\" style></span>\n                        </a>\n                      </li>\n                   </ul>\n              </div>\n    </div>\n       </div>\n\n</section>",
+          "_anchor": "footer2-62",
+          "_isUserblock": true,
+          "_cid": "qIqY2zMKbt",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "margin": "0",
+              "padding": "15px 0",
+              "color": "#000000"
+            }
+          },
+          "_name": "info1",
+          "_customHTML": "<section group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/04-4.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#e7dcba\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container text-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-8 section\">\n                <div class=\"section-title\">\n                    <h3 mbr-text class=\"mbr-fonts-style mbr-section-title\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\">Junior Magueta Foto Vídeo</h3>\n                </div>\n            </div>\n            <div class=\"col-md-4 mbr-section-btn\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a href=\"formularioorcamento.html\" class=\"btn btn-primary\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>\n                    Solicite orçamento</a></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "info1-63",
+          "_isUserblock": true,
+          "_cid": "qIqY3v44Xv",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     }
