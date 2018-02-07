@@ -5085,3 +5085,9 @@ body {
   padding: 0.5em 0.6em;
   width: 98%;
 }
+#custom-html-7v {
+  /* Type valid CSS here */
+}
+#custom-html-7v .my-image {
+  width: 100%;
+}

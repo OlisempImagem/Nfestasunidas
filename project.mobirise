@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NFESTAS UNIDAS",
-    "currentPage": "cerimonial.html",
+    "currentPage": "page43.html",
     "theme": {
       "name": "portfoliom4",
       "title": "PortfolioM4",
@@ -34,7 +34,7 @@
       ]
     },
     "versionFirst": "4.6.2",
-    "uniqCompNum": 282,
+    "uniqCompNum": 284,
     "versionPublish": "4.6.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -87,7 +87,7 @@
     "principal.html": {
       "settings": {
         "title": "Principal",
-        "order": 6,
+        "order": 7,
         "meta_descr": "principal"
       },
       "components": [
@@ -111,7 +111,7 @@
     "apresentacao.html": {
       "settings": {
         "title": "apresentacao",
-        "order": 5,
+        "order": 6,
         "meta_descr": "apresentacao"
       },
       "components": [
@@ -171,7 +171,7 @@
     "acessorios.html": {
       "settings": {
         "title": "Acessorios",
-        "order": 7,
+        "order": 8,
         "meta_descr": "acessorios"
       },
       "components": [
@@ -333,7 +333,7 @@
     "formularioorcamento.html": {
       "settings": {
         "title": "formularioorcamento",
-        "order": 3,
+        "order": 4,
         "meta_descr": "formularioorcamento"
       },
       "components": [
@@ -418,7 +418,7 @@
     "formulariocupom.html": {
       "settings": {
         "title": "formulariocupom",
-        "order": 4,
+        "order": 5,
         "meta_descr": "formulariocupom"
       },
       "components": [
@@ -503,7 +503,7 @@
     "AgenciadeViagens.html": {
       "settings": {
         "title": "AgenciadeViagens",
-        "order": 8,
+        "order": 9,
         "meta_descr": "AgenciadeViagens"
       },
       "components": [
@@ -793,7 +793,7 @@
     "aliancaejoias.html": {
       "settings": {
         "title": "aliancaejoias",
-        "order": 9,
+        "order": 10,
         "meta_descr": "aliancaejoias"
       },
       "components": [
@@ -955,7 +955,7 @@
     "page8.html": {
       "settings": {
         "title": "modelo",
-        "order": 42,
+        "order": 43,
         "meta_descr": "acessorios"
       },
       "components": [
@@ -1117,7 +1117,7 @@
     "aplicativosparafestas.html": {
       "settings": {
         "title": "aplicativosparafestas",
-        "order": 10,
+        "order": 11,
         "meta_descr": "aplicativosparafestas"
       },
       "components": [
@@ -1279,7 +1279,7 @@
     "Bandas.html": {
       "settings": {
         "title": "Bandas",
-        "order": 11,
+        "order": 12,
         "meta_descr": "Bandas"
       },
       "components": [
@@ -1825,7 +1825,7 @@
     "Bartender.html": {
       "settings": {
         "title": "Bartender",
-        "order": 12,
+        "order": 13,
         "meta_descr": "Bartender"
       },
       "components": [
@@ -2243,7 +2243,7 @@
     "bolos.html": {
       "settings": {
         "title": "Bolos",
-        "order": 13,
+        "order": 14,
         "meta_descr": "Bolos"
       },
       "components": [
@@ -2405,7 +2405,7 @@
     "Buffet.html": {
       "settings": {
         "title": "Buffet",
-        "order": 14,
+        "order": 15,
         "meta_descr": "Buffet"
       },
       "components": [
@@ -2823,7 +2823,7 @@
     "Cabelomaquiagem.html": {
       "settings": {
         "title": "Cabelomaquiagem",
-        "order": 15,
+        "order": 16,
         "meta_descr": "Cabelomaquiagem"
       },
       "components": [
@@ -3241,7 +3241,7 @@
     "cerimonial.html": {
       "settings": {
         "title": "cerimonial",
-        "order": 16,
+        "order": 17,
         "meta_descr": "cerimonial"
       },
       "components": [
@@ -3787,7 +3787,7 @@
     "Convites.html": {
       "settings": {
         "title": "Convites",
-        "order": 17,
+        "order": 18,
         "meta_descr": "Convites"
       },
       "components": [
@@ -3949,7 +3949,7 @@
     "coreografo.html": {
       "settings": {
         "title": "coreografo",
-        "order": 18,
+        "order": 19,
         "meta_descr": "coreografo"
       },
       "components": [
@@ -4111,7 +4111,7 @@
     "decoradores.html": {
       "settings": {
         "title": "decoradores",
-        "order": 19,
+        "order": 20,
         "meta_descr": "decoradores"
       },
       "components": [
@@ -4273,7 +4273,7 @@
     "decoracaoinfantil.html": {
       "settings": {
         "title": "decoracaoinfantil",
-        "order": 20,
+        "order": 21,
         "meta_descr": "decoracaoinfantil"
       },
       "components": [
@@ -4435,7 +4435,7 @@
     "decoracaotematica.html": {
       "settings": {
         "title": "decoracaotematica",
-        "order": 21,
+        "order": 22,
         "meta_descr": "decoracaotematica"
       },
       "components": [
@@ -4597,7 +4597,7 @@
     "designergrafico.html": {
       "settings": {
         "title": "designergrafico",
-        "order": 22,
+        "order": 23,
         "meta_descr": "designergrafico"
       },
       "components": [
@@ -4759,7 +4759,7 @@
     "diadanoiva.html": {
       "settings": {
         "title": "diadanoiva",
-        "order": 23,
+        "order": 24,
         "meta_descr": "diadanoiva"
       },
       "components": [
@@ -4921,7 +4921,7 @@
     "DJ.html": {
       "settings": {
         "title": "DJ",
-        "order": 24,
+        "order": 25,
         "meta_descr": "DJ"
       },
       "components": [
@@ -5083,7 +5083,7 @@
     "docesfinos.html": {
       "settings": {
         "title": "docesfinos",
-        "order": 25,
+        "order": 26,
         "meta_descr": "docesfinos"
       },
       "components": [
@@ -5501,7 +5501,7 @@
     "espacodeeventos.html": {
       "settings": {
         "title": "espacodeeventos",
-        "order": 26,
+        "order": 27,
         "meta_descr": "espacodeeventos"
       },
       "components": [
@@ -5663,7 +5663,7 @@
     "espacoparaeventoinfantil.html": {
       "settings": {
         "title": "espacoparaeventoinfantil",
-        "order": 27,
+        "order": 28,
         "meta_descr": "espacoparaeventoinfantil"
       },
       "components": [
@@ -6081,7 +6081,7 @@
     "fotocabine.html": {
       "settings": {
         "title": "fotocabine",
-        "order": 28,
+        "order": 29,
         "meta_descr": "fotocabine"
       },
       "components": [
@@ -6371,7 +6371,7 @@
     "fotografo.html": {
       "settings": {
         "title": "fotografo",
-        "order": 29,
+        "order": 30,
         "meta_descr": "fotografo"
       },
       "components": [
@@ -7301,7 +7301,7 @@
     "hoteis.html": {
       "settings": {
         "title": "hoteis",
-        "order": 30,
+        "order": 31,
         "meta_descr": "hoteis"
       },
       "components": [
@@ -7463,7 +7463,7 @@
     "Lembrancinhas.html": {
       "settings": {
         "title": "Lembrancinhas",
-        "order": 31,
+        "order": 32,
         "meta_descr": "Lembrancinhas"
       },
       "components": [
@@ -7813,7 +7813,7 @@
     "locacaodecarros.html": {
       "settings": {
         "title": "locacaodecarros",
-        "order": 32,
+        "order": 33,
         "meta_descr": "locacaodecarros"
       },
       "components": [
@@ -7975,7 +7975,7 @@
     "locacaodeimoveis.html": {
       "settings": {
         "title": "locacaodeimoveis",
-        "order": 33,
+        "order": 34,
         "meta_descr": "locacaodeimoveis"
       },
       "components": [
@@ -8137,7 +8137,7 @@
     "somiluminacao.html": {
       "settings": {
         "title": "somiluminacao",
-        "order": 34,
+        "order": 35,
         "meta_descr": "somiluminacao"
       },
       "components": [
@@ -8299,7 +8299,7 @@
     "tendaeiluminacao.html": {
       "settings": {
         "title": "tendaeiluminacao",
-        "order": 35,
+        "order": 36,
         "meta_descr": "tendaeiluminacao"
       },
       "components": [
@@ -8461,7 +8461,7 @@
     "valets.html": {
       "settings": {
         "title": "valets",
-        "order": 36,
+        "order": 37,
         "meta_descr": "valets"
       },
       "components": [
@@ -8623,7 +8623,7 @@
     "vestidosetrajes.html": {
       "settings": {
         "title": "vestidosetrajes",
-        "order": 37,
+        "order": 38,
         "meta_descr": "vestidosetrajes"
       },
       "components": [
@@ -8785,7 +8785,7 @@
     "videos": {
       "settings": {
         "title": "videos",
-        "order": 38,
+        "order": 39,
         "meta_descr": "videos"
       },
       "components": [
@@ -9587,7 +9587,7 @@
     "descontos.html": {
       "settings": {
         "title": "descontos",
-        "order": 39,
+        "order": 40,
         "meta_descr": "descontos"
       },
       "components": [
@@ -9834,7 +9834,7 @@
     "workshop.html": {
       "settings": {
         "title": "workshop",
-        "order": 40,
+        "order": 41,
         "meta_descr": "workshop"
       },
       "components": [
@@ -9946,7 +9946,7 @@
     "faleconosco.html": {
       "settings": {
         "title": "faleconosco",
-        "order": 41,
+        "order": 42,
         "meta_descr": "faleconosco"
       },
       "components": [
@@ -10010,7 +10010,7 @@
     "formulariofaleconosco.html": {
       "settings": {
         "title": "formulariofaleconosco",
-        "order": 1,
+        "order": 2,
         "meta_descr": "formulariofaleconosco"
       },
       "components": [
@@ -10094,7 +10094,7 @@
     "formularioanuncie.html": {
       "settings": {
         "title": "formularioanuncie",
-        "order": 2,
+        "order": 3,
         "meta_descr": "formularioanuncie"
       },
       "components": [
@@ -10172,6 +10172,28 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "page43.html": {
+      "settings": {
+        "title": "teste form",
+        "order": 1
+      },
+      "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid HTML here -->\n<iframe id=\"yourframeid\" name=\"yourframename\" src=\"https://github.com/OlisempImagem/Nfestasunidas/tree/gh-pages/assets/form.html\" onload=\"this.style.height=(this.contentDocument.body.scrollHeight+15) +'px';\" frameborder=\"0\" style=\"width:100%;\">\n    </iframe>",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-7v",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         }
       ]
     }
