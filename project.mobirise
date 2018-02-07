@@ -10178,13 +10178,14 @@
     "page43.html": {
       "settings": {
         "title": "teste form",
-        "order": 1
+        "order": 1,
+        "footer_custom": "<iframe id=\"1\" name=\"1\" src=\"C:\\Users\\olisemp pc\\Documents\\digage\\festas unidas\\formulario\\jqueryform\\jqueryform-9a635c/form.html\" onload=\"this.style.height=(this.contentDocument.body.scrollHeight+15) +'px';\" frameborder=\"0\" style=\"width:100%;\">\n    </iframe>"
       },
       "components": [
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid HTML here -->\n<iframe id=\"1\" name=\"1\" src=\"C:\\Users\\olisemp pc\\Documents\\digage\\festas unidas\\formulario\\jqueryform\\jqueryform-9a635c/form.html\" onload=\"this.style.height=(this.contentDocument.body.scrollHeight+15) +'px';\" frameborder=\"0\" style=\"width:100%;\">\n    </iframe>",
+          "_customHTML": "<!-- Type valid HTML here -->\n",
           "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
           "alias": "code-editor",
           "_tags": [
