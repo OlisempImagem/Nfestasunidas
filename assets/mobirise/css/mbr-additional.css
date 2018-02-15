@@ -5091,3 +5091,32 @@ body {
 #custom-html-7v .my-image {
   width: 100%;
 }
+.cid-qIZVFcCBxB {
+  background-image: url("../../../assets/images/background7.jpg");
+}
+.cid-qIZVFcCBxB .slider-text-two {
+  background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+  display: inline-block;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  outline-offset: -15px;
+  padding: 65px 50px;
+  position: relative;
+  text-align: center;
+}
+.cid-qIZVFcCBxB .mbr-section-title {
+  color: #232323;
+}
+.cid-qIZVFcCBxB .mbr-section-title span {
+  color: #ffbc00;
+}
+.cid-qIZVFcCBxB .mbr-text {
+  color: #232323;
+  letter-spacing: 5px;
+  font-weight: 100;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .cid-qIZVFcCBxB .slider-text-two {
+    outline: 15px solid rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
